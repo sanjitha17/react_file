@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Login from "./login";
+
+// import Mounting from "./mounting1";
+// import Unmounting from "./unmounting";
+// import Updating from "./updating";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <CounterAll /> */}
+      {/* <Mounting favColor="black" />
+      <Updating favAnimal="deer" />
+      <Unmounting /> */}
+      <Login />
     </div>
   );
 }
